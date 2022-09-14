@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32602.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RequApi", "RequApi\RequApi.csproj", "{A5A89E53-FF9A-438B-B874-6ED94BFBF577}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RequApi_Cliente", "RequApi_Cliente", "{E60920F0-25B9-4E95-9644-C70D013DCE85}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RequApi_Servicio", "RequApi_Servicio", "{DB665B8F-12A7-467F-B29F-EDAFBDDE85CD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Requ_Angular", "RequApi_Cliente\Requ_Angular\Requ_Angular.csproj", "{73626459-998B-43BE-818C-7153B7C5DB6B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Requ.Dominio.Requerimientos", "RequApi_Servicio\Dominio\Requ.Dominio.Requerimientos\Requ.Dominio.Requerimientos.csproj", "{C2522DDF-89B8-4A76-8390-521DB444D588}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Dominio", "Dominio", "{F1EA130F-DC16-443E-AAD2-0333A94B11CC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PersistenciaBD", "PersistenciaBD", "{168C9E30-5566-4BFC-8B4B-49872E283225}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ServicioDistribuido", "ServicioDistribuido", "{70E57423-4903-4012-9EAC-20BA3046D2A4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Transversal", "Transversal", "{BE162024-23C8-4EE8-8EC4-9BD343C5C8E4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LogicaNegocio", "LogicaNegocio", "{6E024256-8D1A-4DBE-A5F2-59FADCCC8FEF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A5A89E53-FF9A-438B-B874-6ED94BFBF577}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5A89E53-FF9A-438B-B874-6ED94BFBF577}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5A89E53-FF9A-438B-B874-6ED94BFBF577}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5A89E53-FF9A-438B-B874-6ED94BFBF577}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73626459-998B-43BE-818C-7153B7C5DB6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73626459-998B-43BE-818C-7153B7C5DB6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73626459-998B-43BE-818C-7153B7C5DB6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73626459-998B-43BE-818C-7153B7C5DB6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2522DDF-89B8-4A76-8390-521DB444D588}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2522DDF-89B8-4A76-8390-521DB444D588}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2522DDF-89B8-4A76-8390-521DB444D588}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2522DDF-89B8-4A76-8390-521DB444D588}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{73626459-998B-43BE-818C-7153B7C5DB6B} = {E60920F0-25B9-4E95-9644-C70D013DCE85}
+		{C2522DDF-89B8-4A76-8390-521DB444D588} = {F1EA130F-DC16-443E-AAD2-0333A94B11CC}
+		{F1EA130F-DC16-443E-AAD2-0333A94B11CC} = {DB665B8F-12A7-467F-B29F-EDAFBDDE85CD}
+		{168C9E30-5566-4BFC-8B4B-49872E283225} = {DB665B8F-12A7-467F-B29F-EDAFBDDE85CD}
+		{70E57423-4903-4012-9EAC-20BA3046D2A4} = {DB665B8F-12A7-467F-B29F-EDAFBDDE85CD}
+		{BE162024-23C8-4EE8-8EC4-9BD343C5C8E4} = {DB665B8F-12A7-467F-B29F-EDAFBDDE85CD}
+		{6E024256-8D1A-4DBE-A5F2-59FADCCC8FEF} = {DB665B8F-12A7-467F-B29F-EDAFBDDE85CD}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {60F56E42-94C5-4456-AAA2-A98178059E0A}
+	EndGlobalSection
+EndGlobal
